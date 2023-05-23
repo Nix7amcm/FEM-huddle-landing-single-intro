@@ -1,0 +1,87 @@
+:root {
+  /* _____ primary colors _____ */
+  --main-violet: hsl(257, 40%, 49%);
+  --accent-pink: hsl(301, 70%, 71%);
+  --accent-pink2: hsl(322, 100%, 66%);
+  --white: hsl(0, 0%, 100%);
+
+  --bg-body: var(--main-violet);
+
+  /* _____ fonts _____ */
+  --font-1-open: 'Open Sans', sans-serif;
+  --font-2-popp: 'Poppins', sans-serif;
+
+  /* _____ typography _____ *
+  /* ### font-color ### */
+  --fc-body: var(--white);
+  --fc-h1: var(--white);
+  --fc-p: var(--white);
+
+  /* ### font-family ### */
+  --ff-body: var(--font-1-open);
+  --ff-h1: var(--font-2-popp);
+  --ff-p: var(--font-1-open);
+
+  /* ### font-size ### */
+  --fs-body: 1.125rem;
+  --fs-body-mob: 1rem;
+  --fs-h1: clamp(1.875rem, 3vw, 2.5rem);
+  --fs-h1-mob: 1.5rem;
+  --fs-p: clamp(1rem, 1.5vw, 1.125rem);
+  --fs-p-mob: 1rem;
+
+  /* ### font-weight ### */
+  --fw-body: 400;
+  --fw-h1: 600;
+  --fw-p: 400;
+
+  /* ### line-height ### */
+  --lh-body: 1.6875rem;
+  --lh-h1: clamp(2.25rem, 4vw, 3.75rem);
+  --lh-h1-mob: 2.25rem;
+  --lh-p: clamp(1.5rem, 2vw, 1.6875rem);
+  --lh-p-mob: 1.5rem;
+
+  /* _____ header _____ */
+  --logo: var(--white);
+
+  /* _____ button _____ */
+  --bg-btn: var(--white);
+  --bg-btn-hov: var(--accent-pink);
+  --bxs-btn: 2px 4px 9px 3px hsla(0, 0%, 0%, 0.259);
+  --bxs-btn-mob: 1px 3px 5px hsla(0, 0%, 0%, 0.269);
+  --bdrs-btn: 1.75rem;
+  --bdrs-btn-mob: 1.25rem;
+  --ff-btn: var(--font-2-popp);
+  --fc-btn: var(--main-violet);
+  --fc-btn-hov: var(--white);
+  --fs-btn: clamp(.75rem, 1.4vw, 1.125rem);
+  --fs-btn-mob: .75rem;
+  --fw-btn: 400;
+  --lh-btn: clamp(1.125rem, 2vw, 1.6875rem);
+  --lh-btn-mob: 1.125rem;
+
+  /* _____ icons _____ */
+  --icon-white: var(--white);
+  --icon-hov: var(--accent-pink2);
+  --bdrs-icon: 50%;
+  /*--fs-icon-clamp: clamp(1.75rem, 3vw, 1.25rem);*/
+  --fs-icon: 1.25rem;
+  --fs-icon-mob: 1.75rem;
+  --fs-icon-fb: 1.125rem;
+  --fs-icon-fb-mob: .8125rem;
+  --fs-icon-tw: 1.0625rem;
+  --fs-icon-tw-mob: .75rem;
+  --fs-icon-in: 1.375rem;
+  --fs-icon-in-mob: .9375rem;
+  --icon-after-size: 40px;
+  --icon-after-size-mob: 28px; /*????????*/
+
+  /* _____ footer _____ */
+  --fc-footer: hsl(0, 0%, 100%);
+  --fc-footer-a: hsl(60, 100%, 50%);
+  --fc-footer-a-hov: hsl(322, 100%, 66%);
+  --fc-footer-a-vis: hsl(300, 100%, 25%);
+  --fs-footer: .6875rem;
+
+}
