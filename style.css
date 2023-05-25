@@ -24,13 +24,20 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-body);
   font-weight: var(--fw-body);
-  background: url('/images/bg-desktop.svg'), var(--bg-body) no-repeat;
+  background: url('images/bg-desktop.svg'), var(--bg-body) no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 900px) {
   body {
-    background-image: url('/images/bg-mobile.svg');
+    background-image: url('images/bg-mobile.svg');
     background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 376px) {
+  body {
+    background-size: unset;
   }
 }
 
@@ -100,7 +107,7 @@ p {
 main {
   display: flex;
   gap: 3.6875rem;
-  margin-bottom: 1.6875rem;
+  /*margin-bottom: 1.6875rem;*/
   margin-top: clamp(3.75rem, 6vw, 5.9375rem);
   margin-inline: auto;
 }
@@ -108,6 +115,7 @@ main {
 @media (max-width: 900px) {
   main {
     flex-direction: column;
+    align-items: center;
     margin-block: 3.25rem 4rem;
   }
 }
