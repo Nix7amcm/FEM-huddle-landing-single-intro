@@ -41,8 +41,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [ ]( )
-- Live Site URL: [ ]( )
+- Solution URL: [frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-ptljtO93nk](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-ptljtO93nk)
+- Live Site URL: [nix7amcm.github.io/FEM-huddle-landing-single-intro/](https://nix7amcm.github.io/FEM-huddle-landing-single-intro/)
 
 ---
 
