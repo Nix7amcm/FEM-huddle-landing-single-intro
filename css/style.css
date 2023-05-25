@@ -210,7 +210,7 @@ main {
   }
 
   .social__link__icon.facebook {
-    margin-right: 26px;
+    margin-right: 22px;
     font-size: var(--fs-icon-fb-mob);
   }
 
@@ -220,7 +220,7 @@ main {
   }
 
   .social__link__icon.twitter {
-    margin-right: 21px;
+    margin-right: 19px;
     font-size: var(--fs-icon-tw-mob);
   }
 
@@ -231,12 +231,12 @@ main {
 
   .social__link__icon.instagram {
     font-size: var(--fs-icon-in-mob);
-    top: 1.5px;
+    bottom: -1px;
   }
 
   .social__link__icon.instagram::after {
     left: -7.5px;
-    bottom: -7.5px;
+    bottom: -6.5px;
   }
 }
 
