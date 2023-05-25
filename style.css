@@ -107,7 +107,7 @@ p {
 main {
   display: flex;
   gap: 3.6875rem;
-  /*margin-bottom: 1.6875rem;*/
+  margin-bottom: 1.6875rem;
   margin-top: clamp(3.75rem, 6vw, 5.9375rem);
   margin-inline: auto;
 }
@@ -192,6 +192,7 @@ main {
 }
 
 .social__link__icon.instagram {
+  margin-right: 32px;
   font-size: var(--fs-icon-in);
 }
 
@@ -200,16 +201,19 @@ main {
   bottom: -8.5px;
 }
 
-.social__link__icon:is(:hover, :focus-visible),
-.social__link__icon:is(:hover, :focus-visible)::after {
-  color: var(--icon-hov);
-  border-color: var(--icon-hov);
+.social__link:hover .social__link__icon,
+.social__link:hover .social__link__icon::after,
+.social__link:focus-visible .social__link__icon,
+.social__link:focus-visible .social__link__icon::after {
+color: var(--icon-hov);
+border-color: var(--icon-hov);
 }
 
 @media (max-width: 900px) {
 
   .social__wrap {
     text-align: center;
+    margin-bottom: 1rem;
   }
 
   .social__link__icon::after {
@@ -238,6 +242,7 @@ main {
   }
 
   .social__link__icon.instagram {
+    margin-right: 0;
     font-size: var(--fs-icon-in-mob);
     bottom: -1px;
   }
@@ -287,6 +292,11 @@ button:active {
 
 
 /*_____ FOOTER _____*/
+
+footer {
+  display: flex;
+  justify-content: center;
+}
 
 footer p {
   color: var(--fc-footer);
